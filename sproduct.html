@@ -5,21 +5,161 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Tech2etc Ecommerce Tutorial</title>
+        <title>RM-Group - Produits</title>
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
 
         <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
+        <section id="header">
+            <a href="#"><img src="img/logo.png" class="logo" alt=""></a>
+            <div>
+                <ul id="navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a class="active" href="shop.html">Produits</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <a href="#" id="close"><i class="far fa-times"></i></a>
+                </ul>
+            </div>
+            <div id="mobile">
+                <i id="bar" class="fas fa-outdent"></i>
+            </div>
+        </section>
 
+        <section id="prodetails" class="section-p1">
+            <div class="single-pro-image">
+                <img src="img/products/f1.jpg" width="100%" id="MainImg" alt="">
+                <div class="small-img-group">
+                    <div class="small-img-col">
+                        <img src="img/products/f1.jpg" width="100%" class="small-img" alt="">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="img/products/f2.jpg" width="100%" class="small-img" alt="">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="img/products/f3.jpg" width="100%" class="small-img" alt="">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="img/products/f4.jpg" width="100%" class="small-img" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="single-pro-details">
+                <h6>Home / T-shirts</h6>
+                <h4>Mens Fashion T-shirt</h4>
+                <h4>Product Details</h4>
+                <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                     when an unknown printer took a galley of type and scrambled it to make a type specimen book
+                </span>
+            </div>
+        </section>
+
+        <section id="product1" class="section-p1">
+            <h2>Produits Similaires</h2>
+            <div class="pro-container">
+                <div class="pro">
+                    <img src="img/products/f8.jpg" alt="">
+                    <div class="des">
+                        <span>Adidas</span>
+                        <h5>T-shirt</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="pro">
+                    <img src="img/products/f8.jpg" alt="">
+                    <div class="des">
+                        <span>Adidas</span>
+                        <h5>T-shirt</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="pro">
+                    <img src="img/products/f8.jpg" alt="">
+                    <div class="des">
+                        <span>Adidas</span>
+                        <h5>T-shirt</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="pro">
+                    <img src="img/products/f8.jpg" alt="">
+                    <div class="des">
+                        <span>Adidas</span>
+                        <h5>T-shirt</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="section-p1">
+            <div class="col">
+                <h4>Contact</h4>
+                <p><strong>Adresse: </strong> Sahloul, Kalaa Sghira 4021</p>
+                <p><strong>Phone: </strong> +216 73737373</p>
+                <p><strong>Hours: </strong> 08:00 - 18:00, Mon - Sat </p>
+            </div>
+            <div class="col">
+                <h4>À propos</h4>
+                <a href="#">À propos de nous</a>
+                <a href="#">Contactez-nous</a>
+            </div>
+            <div class="col">
+                <div class="follow"></div>
+                <h4>Follow us</h4>  
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </footer>
 
         <script>
-            // script for image change on click
+            var MainImg = document.getElementById("MainImg");
+            var SmallImg = document.getElementsByClassName("small-img");
+            
+            SmallImg[0].onclick = function(){
+                MainImg.src = SmallImg[0].src;
+            }
+            SmallImg[1].onclick = function(){
+                MainImg.src = SmallImg[1].src;
+            }
+            SmallImg[2].onclick = function(){
+                MainImg.src = SmallImg[2].src;
+            }
+            SmallImg[3].onclick = function(){
+                MainImg.src = SmallImg[3].src;
+            }
         </script>
-
-
-        <script src="script.js"></script>
     </body>
 
 </html>
