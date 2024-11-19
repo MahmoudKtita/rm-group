@@ -700,6 +700,12 @@ footer a:hover{
   .card-wrapper .swiper-slide-button{
     display: none;
   }
+
+  .swiper-title {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 25px;
+  }
 }
 
 /* Slider */
