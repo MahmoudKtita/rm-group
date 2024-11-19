@@ -18,6 +18,10 @@ if(close)
 
     new Swiper('.card-wrapper', {
         loop: true,
+        autoplay: {
+            delay: 1500, // Time between slides in milliseconds
+            disableOnInteraction: false, // Continue autoplay even after interaction
+          },
         spaceBetween:30,
         // If we need pagination
         pagination: {
