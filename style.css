@@ -500,6 +500,11 @@ footer .icon a:hover i {
   border-radius: 4px;
   color: #fff;
   font-weight: 600;
+  transition: 0.2s;
+}
+
+#pagination a:hover{
+  background: #3d76a5;
 }
 
 #pagination a i{
@@ -718,6 +723,12 @@ footer .icon a:hover i {
 
   #banner3 .banner-box{
     width: 100%;
+  }
+
+  /* Shop */
+
+  #pagination{
+    margin-bottom: 50px;
   }
 
   /* Single Product */
