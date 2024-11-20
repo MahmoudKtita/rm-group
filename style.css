@@ -426,7 +426,7 @@ footer .col {
 
 footer h4 {
   font-size: 18px;
-  color: #088178;
+  color: #3d76a5;
   margin-bottom: 20px;
   text-transform: uppercase;
 }
@@ -434,7 +434,7 @@ footer h4 {
 footer p {
   font-size: 14px;
   color:#000;
-  line-height: 1.8;
+
   margin-bottom: 10px;
 }
 
@@ -446,10 +446,11 @@ footer a {
   display: block; /* Ensures links stack vertically */
   margin-bottom: 5px;
   transition: color 0.3s ease;
+  font-weight: bold;
 }
 
 footer a:hover {
-  color: #088178;
+  color: #3d76a5;
 }
 
 footer .icon a {
@@ -465,7 +466,7 @@ footer .icon i {
 }
 
 footer .icon a:hover i {
-  color: #088178;
+  color: #3d76a5;
   transform: scale(1.2);
 }
 

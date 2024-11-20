@@ -12,6 +12,7 @@ if(bar)
 if(close)
     {
         close.addEventListener('click',()=>{
+            event.preventDefault();
             nav.classList.remove('active');
         })
     }
