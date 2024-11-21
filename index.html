@@ -8,6 +8,7 @@
         <title>RM-Group</title>
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <link rel="stylesheet" href="style.css">
     </head>
 
@@ -29,7 +30,7 @@
             </div>
         </section>
 
-        <section id="hero">
+        <section id="hero" data-aos="fade-down">
             <h4>Trade in offer</h4>
             <h2>Super value deals</h2>
             <h1>On all products</h1>
@@ -37,7 +38,7 @@
             <button class="normal">Shop now</button>
         </section>
 
-        <section id="feature" class="section-p1">
+        <section id="feature" class="section-p1" data-aos="fade">
             <h2 id="sproduct-h2">NOS SERVICES</h2>
             <div class="fe-box-container">
               <div class="fe-box">
@@ -59,7 +60,7 @@
             </div>
           </section>
 
-        <section id="product1" class="section-p1">
+        <section id="product1" class="section-p1" data-aos="fade">
             <h2 id="sproduct-h2">PRODUITS POPULAIRES</h2>
             <div class="pro-container">
                 <div class="pro">
@@ -135,13 +136,13 @@
             </div>
         </section>
 
-        <section id="banner" class="section-m1">
+        <section id="banner" class="section-m1" data-aos="fade">
             <h4>Repair Services</h4>
             <h2>Up to <span>70%</span> - All t-Shirts & Accessories</h2>
             <button class="normal">Explore More</button>
           </section>
 
-        <section id="sm-banner" class="section-p1">
+        <section id="sm-banner" class="section-p1" data-aos="fade">
             <div class="banner-box">
                 <h4>Crazy deals</h4>
                 <h2>Buy 1 get one free</h2>
@@ -156,7 +157,7 @@
             </div>
         </section>
 
-        <section id="banner3">
+        <section id="banner3" data-aos="fade">
             <div class="banner-box">
                 <h2>Seasonal Sale</h2>
                 <h3>Winter Collection -50% OFF</h3>
@@ -171,7 +172,7 @@
             </div>
         </section>     
 
-        <div class="bd">
+        <div class="bd"  data-aos="fade">
             <div class="swiper-container">
                 <h2 class="swiper-title">Ils nous font confiance</h2>
                 <div class="container swiper">
@@ -238,6 +239,15 @@
         
         
         <script src="script.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                offset:400,
+                duration:800,
+                easing: 'ease',
+                once: true
+            });
+        </script>
     </body>
 
 </html>
