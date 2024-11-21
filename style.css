@@ -153,6 +153,7 @@ body {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+  
 }
 
 #hero h4{
@@ -176,6 +177,9 @@ body {
 #feature{
   text-align: center;
   padding-top: 70px;
+  animation: appear 5s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
 }
 
 #feature h2 {
@@ -230,6 +234,9 @@ body {
 
 #product1{
   text-align: center;
+  animation: appear 5s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
 }
 
 #product1 h2 {
@@ -788,8 +795,8 @@ footer .icon a:hover i {
 
   .swiper-title {
     margin-bottom: 20px;
-    text-align: center;
-    font-size: 25px;
+    text-align: left;
+    font-size: 5px;
   }
 }
 
@@ -870,6 +877,20 @@ footer .icon a:hover i {
 
 
 .swiper-title {
-  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 4px;
+  font-size: 30px;
   text-align: center;
 }
+
+@keyframes appear{
+  from {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  to{
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
