@@ -265,11 +265,13 @@ body {
 }
 
 #product1 .pro img:hover{
-  transform: translateY(-5px);
+  transform: scale(1.1);
+  /*transform: translateY(-5px);*/
 }
 
 #product1 .pro img{
   width: 100%;
+  /*height: 240px;*/
   border-radius: 20px;
   transition: transform 0.5s;
 }
@@ -345,7 +347,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  background-image: url("img/banner/b17.jpg");
+  background-image: url("https://www.workman-stid.com/img/cms/cat1.jpg");
   min-width: 48%;
   height: 50vh;
   background-size: cover;
@@ -356,7 +358,7 @@ body {
 }
 
 #sm-banner .banner-box2{
-  background-image: url("img/banner/b10.jpg");
+  background-image: url("https://www.workman-stid.com/img/cms/cat4.jpg");
 }
 
 #sm-banner h4{
@@ -395,7 +397,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  background-image: url("img/banner/b7.jpg");
+  background-image: url("https://www.workman-stid.com/img/cms/box1.jpg");
   min-width: 30%;
   height: 30vh;
   background-size: cover;
@@ -407,11 +409,11 @@ body {
 }
 
 #banner3 .banner-box2{
-  background-image: url("img/banner/b4.jpg");
+  background-image: url("https://www.workman-stid.com/img/cms/cat5.jpg");
 }
 
 #banner3 .banner-box3{
-  background-image: url("img/banner/b18.jpg");
+  background-image: url("https://www.workman-stid.com/img/cms/cat2.jpg");
 }
 
 #banner3 h2{
@@ -431,12 +433,12 @@ footer {
   flex-wrap: wrap;
   justify-content: space-around;
   background-color: #f8f9fa;
-  padding: 40px 20px;
+  padding-top: 20px;
+  margin-bottom: 10px;
   border-top: 1px solid #e1b3d0;
 }
 
 footer .col {
-  flex: 1;
   min-width: 250px;
   margin: 20px;
 }
@@ -692,6 +694,10 @@ footer .icon a:hover i {
   #prodetails .single-pro-image{
     width: 50%;
     margin-right: 50px;
+  }
+
+  footer .col {
+    flex: 1;
   }
 }
 
