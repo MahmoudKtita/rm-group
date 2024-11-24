@@ -1199,6 +1199,10 @@ footer .icon a:hover i {
     text-align: left;
   }
 
+  #contact-details .details li p{
+    font-size: 14px;
+  }
+
   #contact-details .details li i{
     font-size: 14px;
   }
