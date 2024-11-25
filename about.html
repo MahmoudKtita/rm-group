@@ -5,15 +5,105 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Tech2etc Ecommerce Tutorial</title>
+        <title>RM-Group - Produits</title>
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
-
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
+        <section id="header">
+            <a href="#"><img src="img/logo.png" class="logo" alt=""></a>
+            <div>
+                <ul id="navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Produits</a></li>
+                    <li><a class="active" href="about.html">À Propos</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <a href="#" id="logo-mobile"><img src="img/logo.png" class="logo" alt=""></a>
+                    <a href="#" id="close"><i class="far fa-times"></i></a>
+                </ul>
+            </div>
+            <div id="mobile">
+                <i id="bar" class="fas fa-bars"></i>
+            </div>
+        </section>
+
+        <section id="page-header">
+            <h2>#À Propos</h2>
+            <p>N'hésitez pas de nous contacter à tout moment!</p>
+        </section>
+
+        <section id="about" class="section-p2" data-aos="fade-left" style="margin-top: 50px;">
+            <div class="about-img">
+                <img src="https://www.protecnord.fr/img/cms/photo1.jpg" alt="">
+            </div>
+            <div class="about-details">
+                <h2>Who we are ?</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Adipisci in nihil dolores inventore esse ipsa voluptatibus
+                    quo eos soluta incidunt aut exercitationem eum molestiae 
+                    uibusdam unde iusto, debitis non ad!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Adipisci in nihil dolores inventore esse ipsa voluptatibus
+                    quo eos soluta incidunt aut exercitationem eum molestiae 
+                    uibusdam unde iusto, debitis non ad!</p>
+            </div>
+        </section>
+        <section id="about" class="section-p1" data-aos="fade-right">
+            <div class="about-details">
+                <h2 style="margin-top: 0px;">Who we are ?</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Adipisci in nihil dolores inventore esse ipsa voluptatibus
+                    quo eos soluta incidunt aut exercitationem eum molestiae 
+                    uibusdam unde iusto, debitis non ad!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Adipisci in nihil dolores inventore esse ipsa voluptatibus
+                    quo eos soluta incidunt aut exercitationem eum molestiae 
+                    uibusdam unde iusto, debitis non ad!</p>
+            </div>
+            <div class="about-img">
+                <img src="https://www.protecnord.fr/img/cms/photo1.jpg" alt="">
+            </div>
+        </section>
+
+        <footer>
+            <div class="col">
+                <h4>Contact</h4>
+                <p><strong>Adresse : </strong>Sahloul, Kalaa Sghira 4021</p>
+                <p><strong>Téléphone : </strong>+216 73737373</p>
+                <p><strong>Email : </strong>contact@contact.com</p>
+                <p><strong>Horaire : </strong>08:00 - 18:00, Lun - Vend</p>
+            </div>
+            <div class="col">
+                <h4>à propos</h4>
+                <a href="#">Nos Produits</a>
+                <a href="#">Contactez-Nous</a>
+                <a href="#">À Propos</a>
+            </div>
+            <div class="col">
+                <h4>Suivez-Nous</h4>
+                <div class="icon">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </footer>
 
         <script src="script.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                offset:200,
+                duration:600,
+                easing: 'ease',
+                once: true
+            });
+        </script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     </body>
 
 </html>
